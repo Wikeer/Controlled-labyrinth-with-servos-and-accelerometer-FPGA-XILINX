@@ -1,0 +1,84 @@
+xst -intstyle ise -ifn "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/PmodACL_Demo.xst" -ofn "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/PmodACL_Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ACLinterfaceNexys3.ucf -p xc6slx16-csg324-3 "PmodACL_Demo.ngc" PmodACL_Demo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PmodACL_Demo_map.ncd PmodACL_Demo.ngd PmodACL_Demo.pcf 
+par -w -intstyle ise -ol high -mt off PmodACL_Demo_map.ncd PmodACL_Demo.ncd PmodACL_Demo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PmodACL_Demo.twx PmodACL_Demo.ncd -o PmodACL_Demo.twr PmodACL_Demo.pcf -ucf ACLinterfaceNexys3.ucf 
+bitgen -intstyle ise -f PmodACL_Demo.ut PmodACL_Demo.ncd 
+xst -intstyle ise -ifn "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/PmodACL_Demo.xst" -ofn "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/PmodACL_Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ACLinterfaceNexys3.ucf -p xc6slx9-csg225-2 "PmodACL_Demo.ngc" PmodACL_Demo.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PmodACL_Demo_map.ncd PmodACL_Demo.ngd PmodACL_Demo.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ACLinterfaceNexys3.ucf -p xc6slx9-csg225-2 "PmodACL_Demo.ngc" PmodACL_Demo.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PmodACL_Demo_map.ncd PmodACL_Demo.ngd PmodACL_Demo.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ACLinterfaceNexys3.ucf -p xc6slx9-csg225-2 "PmodACL_Demo.ngc" PmodACL_Demo.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PmodACL_Demo_map.ncd PmodACL_Demo.ngd PmodACL_Demo.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ACLinterfaceNexys3.ucf -p xc6slx9-csg225-2 "PmodACL_Demo.ngc" PmodACL_Demo.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PmodACL_Demo_map.ncd PmodACL_Demo.ngd PmodACL_Demo.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ACLinterfaceNexys3.ucf -p xc6slx9-csg225-2 "PmodACL_Demo.ngc" PmodACL_Demo.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PmodACL_Demo_map.ncd PmodACL_Demo.ngd PmodACL_Demo.pcf 
+par -w -intstyle ise -ol high -mt off PmodACL_Demo_map.ncd PmodACL_Demo.ncd PmodACL_Demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PmodACL_Demo.twx PmodACL_Demo.ncd -o PmodACL_Demo.twr PmodACL_Demo.pcf -ucf ACLinterfaceNexys3.ucf 
+bitgen -intstyle ise -f PmodACL_Demo.ut PmodACL_Demo.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ACLinterfaceNexys3.ucf -p xc6slx9-csg225-2 "PmodACL_Demo.ngc" PmodACL_Demo.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PmodACL_Demo_map.ncd PmodACL_Demo.ngd PmodACL_Demo.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ACLinterfaceNexys3.ucf -p xc6slx9-csg225-2 "PmodACL_Demo.ngc" PmodACL_Demo.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ACLinterfaceNexys3.ucf -p xc6slx9-csg225-2 "PmodACL_Demo.ngc" PmodACL_Demo.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PmodACL_Demo_map.ncd PmodACL_Demo.ngd PmodACL_Demo.pcf 
+par -w -intstyle ise -ol high -mt off PmodACL_Demo_map.ncd PmodACL_Demo.ncd PmodACL_Demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PmodACL_Demo.twx PmodACL_Demo.ncd -o PmodACL_Demo.twr PmodACL_Demo.pcf -ucf ACLinterfaceNexys3.ucf 
+bitgen -intstyle ise -f PmodACL_Demo.ut PmodACL_Demo.ncd 
+xst -intstyle ise -ifn "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/PmodACL_Demo.xst" -ofn "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/PmodACL_Demo.syr" 
+xst -intstyle ise -ifn "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/PmodACL_Demo.xst" -ofn "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/PmodACL_Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ACLinterfaceNexys3.ucf -p xc6slx9-csg225-2 "PmodACL_Demo.ngc" PmodACL_Demo.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PmodACL_Demo_map.ncd PmodACL_Demo.ngd PmodACL_Demo.pcf 
+par -w -intstyle ise -ol high -mt off PmodACL_Demo_map.ncd PmodACL_Demo.ncd PmodACL_Demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PmodACL_Demo.twx PmodACL_Demo.ncd -o PmodACL_Demo.twr PmodACL_Demo.pcf -ucf ACLinterfaceNexys3.ucf 
+bitgen -intstyle ise -f PmodACL_Demo.ut PmodACL_Demo.ncd 
+xst -intstyle ise -ifn "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/PmodACL_Demo.xst" -ofn "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/PmodACL_Demo.syr" 
+xst -intstyle ise -ifn "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/PmodACL_Demo.xst" -ofn "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/PmodACL_Demo.syr" 
+xst -intstyle ise -ifn "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/PmodACL_Demo.xst" -ofn "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/PmodACL_Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ACLinterfaceNexys3.ucf -p xc6slx9-csg225-2 "PmodACL_Demo.ngc" PmodACL_Demo.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PmodACL_Demo_map.ncd PmodACL_Demo.ngd PmodACL_Demo.pcf 
+par -w -intstyle ise -ol high -mt off PmodACL_Demo_map.ncd PmodACL_Demo.ncd PmodACL_Demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PmodACL_Demo.twx PmodACL_Demo.ncd -o PmodACL_Demo.twr PmodACL_Demo.pcf -ucf ACLinterfaceNexys3.ucf 
+bitgen -intstyle ise -f PmodACL_Demo.ut PmodACL_Demo.ncd 
+xst -intstyle ise -ifn "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/PmodACL_Demo.xst" -ofn "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/PmodACL_Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ACLinterfaceNexys3.ucf -p xc6slx9-csg225-2 "PmodACL_Demo.ngc" PmodACL_Demo.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PmodACL_Demo_map.ncd PmodACL_Demo.ngd PmodACL_Demo.pcf 
+par -w -intstyle ise -ol high -mt off PmodACL_Demo_map.ncd PmodACL_Demo.ncd PmodACL_Demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PmodACL_Demo.twx PmodACL_Demo.ncd -o PmodACL_Demo.twr PmodACL_Demo.pcf -ucf ACLinterfaceNexys3.ucf 
+bitgen -intstyle ise -f PmodACL_Demo.ut PmodACL_Demo.ncd 
+xst -intstyle ise -ifn "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/PmodACL_Demo.xst" -ofn "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/PmodACL_Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ACLinterfaceNexys3.ucf -p xc6slx9-csg225-2 "PmodACL_Demo.ngc" PmodACL_Demo.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PmodACL_Demo_map.ncd PmodACL_Demo.ngd PmodACL_Demo.pcf 
+par -w -intstyle ise -ol high -mt off PmodACL_Demo_map.ncd PmodACL_Demo.ncd PmodACL_Demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PmodACL_Demo.twx PmodACL_Demo.ncd -o PmodACL_Demo.twr PmodACL_Demo.pcf -ucf ACLinterfaceNexys3.ucf 
+bitgen -intstyle ise -f PmodACL_Demo.ut PmodACL_Demo.ncd 
+xst -intstyle ise -ifn "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/PmodACL_Demo.xst" -ofn "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/PmodACL_Demo.syr" 
+xst -intstyle ise -ifn "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/PmodACL_Demo.xst" -ofn "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/PmodACL_Demo.syr" 
+xst -intstyle ise -ifn "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/PmodACL_Demo.xst" -ofn "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/PmodACL_Demo.syr" 
+xst -intstyle ise -ifn "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/PmodACL_Demo.xst" -ofn "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/PmodACL_Demo.syr" 
+xst -intstyle ise -ifn "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/PmodACL_Demo.xst" -ofn "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/PmodACL_Demo.syr" 
+xst -intstyle ise -ifn "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/PmodACL_Demo.xst" -ofn "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/PmodACL_Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ACLinterfaceNexys3.ucf -p xc6slx9-csg225-2 "PmodACL_Demo.ngc" PmodACL_Demo.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PmodACL_Demo_map.ncd PmodACL_Demo.ngd PmodACL_Demo.pcf 
+par -w -intstyle ise -ol high -mt off PmodACL_Demo_map.ncd PmodACL_Demo.ncd PmodACL_Demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PmodACL_Demo.twx PmodACL_Demo.ncd -o PmodACL_Demo.twr PmodACL_Demo.pcf -ucf ACLinterfaceNexys3.ucf 
+bitgen -intstyle ise -f PmodACL_Demo.ut PmodACL_Demo.ncd 
+xst -intstyle ise -ifn "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/PmodACL_Demo.xst" -ofn "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/PmodACL_Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ACLinterfaceNexys3.ucf -p xc6slx9-csg225-2 "PmodACL_Demo.ngc" PmodACL_Demo.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PmodACL_Demo_map.ncd PmodACL_Demo.ngd PmodACL_Demo.pcf 
+par -w -intstyle ise -ol high -mt off PmodACL_Demo_map.ncd PmodACL_Demo.ncd PmodACL_Demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PmodACL_Demo.twx PmodACL_Demo.ncd -o PmodACL_Demo.twr PmodACL_Demo.pcf -ucf ACLinterfaceNexys3.ucf 
+bitgen -intstyle ise -f PmodACL_Demo.ut PmodACL_Demo.ncd 
+xst -intstyle ise -ifn "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/PmodACL_Demo.xst" -ofn "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/PmodACL_Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ACLinterfaceNexys3.ucf -p xc6slx9-csg225-2 "PmodACL_Demo.ngc" PmodACL_Demo.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PmodACL_Demo_map.ncd PmodACL_Demo.ngd PmodACL_Demo.pcf 
+par -w -intstyle ise -ol high -mt off PmodACL_Demo_map.ncd PmodACL_Demo.ncd PmodACL_Demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PmodACL_Demo.twx PmodACL_Demo.ncd -o PmodACL_Demo.twr PmodACL_Demo.pcf -ucf ACLinterfaceNexys3.ucf 
+bitgen -intstyle ise -f PmodACL_Demo.ut PmodACL_Demo.ncd 
+xst -intstyle ise -ifn "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/PmodACL_Demo.xst" -ofn "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/PmodACL_Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ACLinterfaceNexys3.ucf -p xc6slx9-csg225-2 "PmodACL_Demo.ngc" PmodACL_Demo.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PmodACL_Demo_map.ncd PmodACL_Demo.ngd PmodACL_Demo.pcf 
+par -w -intstyle ise -ol high -mt off PmodACL_Demo_map.ncd PmodACL_Demo.ncd PmodACL_Demo.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PmodACL_Demo.twx PmodACL_Demo.ncd -o PmodACL_Demo.twr PmodACL_Demo.pcf -ucf ACLinterfaceNexys3.ucf 
+bitgen -intstyle ise -f PmodACL_Demo.ut PmodACL_Demo.ncd 

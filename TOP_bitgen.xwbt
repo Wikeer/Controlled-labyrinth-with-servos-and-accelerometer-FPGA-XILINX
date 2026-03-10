@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Mike\OneDrive\Escritorio\6to Semestre\DLP\PmodACL_Demo\TOP.ncd
+OUTFILE=C:\Users\Mike\OneDrive\Escritorio\6to Semestre\DLP\PmodACL_Demo\TOP.bit
+FAMILY=Spartan6
+PART=xc6slx9-2csg225
+WORKINGDIR=C:\Users\Mike\OneDrive\Escritorio\6to Semestre\DLP\PmodACL_Demo
+LICENSE=WebPack
+USER_INFO=212664517_0_0_255

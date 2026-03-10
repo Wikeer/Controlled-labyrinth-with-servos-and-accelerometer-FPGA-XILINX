@@ -1,0 +1,69 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/TOP_isim_beh.exe -prj C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/TOP_beh.prj work.TOP 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/ipcore_dir/Div.vhd" into library work
+Parsing VHDL file "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/Binary_To_BCD.vhd" into library work
+Parsing VHDL file "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/SPImaster.vhd" into library work
+Parsing VHDL file "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/SPIinterface.vhd" into library work
+Parsing VHDL file "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/slaveSelect.vhd" into library work
+Parsing VHDL file "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/Format_Data.vhd" into library work
+Parsing VHDL file "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/ssdCtrl.vhd" into library work
+Parsing VHDL file "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/SPIcomponents.vhd" into library work
+Parsing VHDL file "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/selData.vhd" into library work
+Parsing VHDL file "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/ClkDiv_5Hz.vhd" into library work
+Parsing VHDL file "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/Timer.vhd" into library work
+Parsing VHDL file "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/shift_add3.vhd" into library work
+Parsing VHDL file "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/PWMP.vhd" into library work
+Parsing VHDL file "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/PmodACL_Demo.vhd" into library work
+Parsing VHDL file "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/Npwm.vhd" into library work
+Parsing VHDL file "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/ascii_principal.vhd" into library work
+Parsing VHDL file "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/ascii.vhd" into library work
+Parsing VHDL file "C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/TOP.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity sel_Data [sel_data_default]
+Compiling architecture behavioral of entity SPImaster [spimaster_default]
+Compiling architecture behavioral of entity SPIinterface [spiinterface_default]
+Compiling architecture behavioral of entity slaveSelect [slaveselect_default]
+Compiling architecture behavioral of entity SPIcomponent [spicomponent_default]
+Compiling package vcomponents
+Compiling package textio
+Compiling package vital_timing
+Compiling package vital_primitives
+Compiling package vpkg
+Compiling architecture vcc_v of entity VCC [vcc_default]
+Compiling architecture gnd_v of entity GND [gnd_default]
+Compiling architecture inv_v of entity INV [inv_default]
+Compiling architecture lut3_v of entity LUT3 [\LUT3("01101010")(0,7)\]
+Compiling architecture lut2_v of entity LUT2 [\LUT2("1001")(0,3)\]
+Compiling architecture lut1_v of entity LUT1 [\LUT1("0001")(0,3)\]
+Compiling architecture fd_v of entity FD [\FD('0')\]
+Compiling architecture mult_and_v of entity MULT_AND [mult_and_default]
+Compiling architecture muxcy_v of entity MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity XORCY [xorcy_default]
+Compiling architecture structure of entity Div [div_default]
+Compiling architecture behavioral of entity Binary_To_BCD [binary_to_bcd_default]
+Compiling architecture behavioral of entity Format_Data [format_data_default]
+Compiling architecture behavioral of entity ssdCtrl [ssdctrl_default]
+Compiling architecture behavioral of entity ClkDiv_5Hz [clkdiv_5hz_default]
+Compiling architecture behavioral of entity PmodACL_Demo [pmodacl_demo_default]
+Compiling architecture texto_fijo_arc of entity texto_fijo [texto_fijo_default]
+Compiling architecture behavioral of entity contador_segundos_minutos [contador_segundos_minutos_defaul...]
+Compiling architecture behavioral of entity shift_add3 [shift_add3_default]
+Compiling architecture behavioral of entity NumberToASCII [numbertoascii_default]
+Compiling architecture behavioral of entity Npwm [\Npwm(8,31668,124186,2500,15)\]
+Compiling architecture behavioral of entity pwmP [\pwmP(8,31668,124186,2500,15)\]
+Compiling architecture behavioral of entity top
+Time Resolution for simulation is 1ps.
+Waiting for 14 sub-compilation(s) to finish...
+Compiled 69 VHDL Units
+Built simulation executable C:/Users/eslen/OneDrive/Escritorio/6to Semestre/DLP/PmodACL_Demo/TOP_isim_beh.exe
+Fuse Memory Usage: 67316 KB
+Fuse CPU Usage: 1156 ms

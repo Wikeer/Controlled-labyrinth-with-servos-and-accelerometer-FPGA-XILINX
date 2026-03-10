@@ -1,0 +1,69 @@
+# Clock
+NET "CLK"	LOC = "E7";
+
+# Buttons
+NET "RST"	LOC = "J3";		#BTND
+
+# Switches
+NET "SW<0>" LOC = "L1";
+NET "SW<1>" LOC = "N2";
+#NET "SW<2>" LOC = "V9";
+
+#	ACL Outputs
+NET "SS"		LOC = "D10";			#JB1
+NET "SDO"	LOC = "C7";			#JB2
+NET "SDI"	LOC = "D5";			#JB3
+NET "SCLK"	LOC = "E4";			#JB4
+
+#  Ouput LEDs		
+NET "LED<0>" LOC = "N14";		#LD0
+NET "LED<1>" LOC = "N7";		#LD1
+NET "LED<2>" LOC = "N5";		#LD2
+
+#	7 segment display
+Net "SEG<0>" LOC = K13 ;// = LVCMOS33; #Bank = 1, pin name = IO_L51P_M1DQ12, Sch name = CA
+Net "SEG<1>" LOC = L15 ;// = LVCMOS33; #Bank = 1, pin name = IO_L51N_M1DQ13, Sch name = CB
+Net "SEG<2>" LOC = M15 ;// = LVCMOS33; #Bank = 1, pin name = IO_L52P_M1DQ14, Sch name = CC
+Net "SEG<3>" LOC = P15 ;// = LVCMOS33; #Bank = 1, pin name = IO_L52N_M1DQ15, Sch name = CD
+Net "SEG<4>" LOC = P14 ;// = LVCMOS33; #Bank = 1, pin name = IO_L53P, Sch name = CE
+Net "SEG<5>" LOC = K15 ;// = LVCMOS33; #Bank = 1, pin name = IO_L53N_VREF, Sch name = CF
+Net "SEG<6>" LOC = L14 ;// = LVCMOS33; #Bank = 1, pin name = IO_L61P, Sch name = CG
+Net "DOT" LOC = N15 ;// = LVCMOS33; #Bank = 1, pin name = IO_L61N, Sch name = DP
+
+Net "AN<0>" LOC = "K12" ;// = LVCMOS33; #Bank = 1, pin name = IO_L50N_M1UDQSN, Sch name = AN0
+Net "AN<1>" LOC = "J13" ;// = LVCMOS33; #Bank = 1, pin name = IO_L50P_M1UDQS, Sch name = AN1
+Net "AN<2>" LOC = "K11" ;// = LVCMOS33; #Bank = 1, pin name = IO_L49N_M1DQ11, Sch name = AN2
+Net "AN<3>" LOC = "H13" ;// = LVCMOS33; #Bank = 1, pin name = IO_L49P_M1DQ10, Sch name = AN3
+Net "AN<4>" LOC = "G12" ;// = LVCMOS33; #Bank = 1, pin name = IO_L50N_M1UDQSN, Sch name = AN4
+Net "AN<5>" LOC = "F13" ;// = LVCMOS33; #Bank = 1, pin name = IO_L50P_M1UDQS, Sch name = AN5
+Net "AN<6>" LOC = "H12" ;// = LVCMOS33; #Bank = 1, pin name = IO_L49N_M1DQ11, Sch name = AN6
+Net "AN<7>" LOC = "G13" ;// = LVCMOS33; #Bank = 1, pin name = IO_L49P_M1DQ10, Sch name = AN7
+
+//Bus de datos
+Net "data<0>" LOC = B3 ;// | IOSTANDARD = LVCMOS33; # data1
+Net "data<1>" LOC = A5 ;//| IOSTANDARD = LVCMOS33; # data2
+Net "data<2>" LOC = C6 ;//| IOSTANDARD = LVCMOS33; # data3
+Net "data<3>" LOC = A8 ;//| IOSTANDARD = LVCMOS33; # data4
+Net "data<4>" LOC = C9 ;//| IOSTANDARD = LVCMOS33; # data7
+Net "data<5>" LOC = A11 ;//| IOSTANDARD = LVCMOS33; # data8
+Net "data<6>" LOC = B13 ;//| IOSTANDARD = LVCMOS33; # data9
+Net "data<7>" LOC = B15 ;//| IOSTANDARD = LVCMOS33; # data10
+//Pines de control
+Net "rs" LOC = D13 ;//| IOSTANDARD = LVCMOS33; # JB7
+Net "rw" LOC = E2 ;//| IOSTANDARD = LVCMOS33; # JB8
+Net "e" LOC = A2 ;//| IOSTANDARD = LVCMOS33; # JB9
+//SERVOS
+NET "SERVO1" LOC = "C12" ;//AMARILLO PARALELO 2
+NET "SERVO2" LOC = "E1" ;//VERDE
+NET "SERVO3" LOC = "C1" ;//AZUL PARALELO 4
+NET "SERVO4" LOC = "A3" ;//MORADO
+//PINES DE MUSICA
+#NET "LOSE" LOC = "E15"; //GRIS
+###NET "MUSIC" LOC = "C15"; //MORADO
+#NET "WIN" LOC = "B14"; //AZUL
+#NET "SWMUSIC" LOC = "M8";
+#//CONTROL
+#NET "SENSOR" LOC = "A12";//CAFE
+NET "START" LOC = "P5";
+#NET "LEDS" LOC = "R5";
+#NET "PAUSE" LOC = "N6";

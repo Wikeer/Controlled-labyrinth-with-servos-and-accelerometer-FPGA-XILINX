@@ -1,0 +1,29 @@
+Command line:
+   contador_segundos_minutos_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  62507
+
+Tue Jun 13 05:23:04 2023
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5151.26 Meg
+
+ Total Signals          : 8
+ Total Nets             : 52
+ Total Signal Drivers   : 5
+ Total Blocks           : 3
+ Total Primitive Blocks : 3
+ Total Processes        : 3
+ Total Traceable Variables  : 13
+ Total Scalar Nets and Variables : 535
+Total Line Count : 16
+
+ Total Simulation Time: 165.422 sec
+
+ Current Memory Usage: 4679.4 Meg
+
+Tue Jun 13 05:26:43 2023
+

@@ -1,0 +1,4 @@
+vhdl work "ipcore_dir/Div.vhd"
+vhdl work "Binary_To_BCD.vhd"
+vhdl work "Format_Data.vhd"
+vhdl work "ssdCtrl.vhd"
